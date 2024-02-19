@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Frontend Mentor | Workit landing </title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .back{
+      min-width: 1348px;
+      height: 800px;
+      background-image: url(assets/images/background-hero.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .back nav{
+      height: 100px;
+    }
+    .back nav ul{
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .back nav ul li{
+      list-style: none;
+      color: #fff;
+      border-bottom: 4px solid #44ffa1;
+    }
+    .ring{
+      font-size: 20px;
+    }
+    .ring h1{
+      font-size: 45px;
+    }
+    .ring h1 span{
+    border-bottom: 4px solid #44ffa1;      
+    }
+    .ring button{
+      background-color: #44ffa1;
+      width: 150px;
+      height: 50px;
+      color: purple;
+      font-weight: bold;
+    }
+    .content{
+      width: 800px;
+      height: 400px;
+      background-position: center;
+    }
+    .box1{
+      margin-top: 400px;
+      display: inline-block;
+    }
+    .box1 button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .box2{
+      display: inline-block;
+      margin-left: 30px;
+    }
+    .box2 button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .box3{
+      display: inline-block;
+      margin-left: 30px;
+    }
+    .box3 button{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .container{
+      width: 550px;
+      height: 300px;
+      background-color: #24053e;
+    }
+    .container button{
+      background-color: #44ffa1;
+      color: #24053e;
+      font-weight: bold;
+      padding: 10px;
+    }
+    .owner{
+      margin: 200px auto 60px 200px;
+      display: inline-block;
+    }
+    .owner .owner-thory{
+      position: relative;
+      left: 320px;
+      bottom: 200px;
+      width: 600px;
+      height: 300px;
+      background-color: #24053e;
+      color: #fff;
+      font-size: 14px;
+      padding: 40px 0px 0px 40px;
+    }
+    .owner-thory p{
+      padding-top: 15px;
+    }
+    .owner-thory button{
+      background-color: #44ffa1;
+      color: #24053e;
+      font-weight: bold;
+      width: 150px;
+      height: 50px;
+      display: inline-block;
+    }
+    .owner-thory img{
+      margin-top: -40px;
+    }
+
+  </style>
+  <body>
+    <div class="back">
+      <nav>
+        <ul>
+          <img src="assets/images/logo-light.svg" alt="">
+          <li class="text-end me-5 mt-5">Apply for access</li>
+        </ul>
+      </nav>
+      <div class="ring">
+        <img src="assets/images/bg-pattern-1.svg" alt="" width="200px">
+          <h1 class="h1 text-center text-white ">Data <span>tailored</span> to <br> your needs.</h1>
+          <div class="text-center">
+            <button type="button" class="mt-4">Learn More</button>
+            <div class="text-end" >
+            <img src="assets/images/bg-pattern-2.svg" alt="" class="" > 
+          </div>
+          <div class="text-center ">
+            <img src="assets/images/image-hero.webp" alt="" width="600px" >
+          </div>      
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="text-center mx-auto col-md-	">
+      <div class="box1">
+        <button type="button" class="">1</button>
+        <h1 class="fs-5">Actionable insights</h1>
+        <p>Optimize Your Products. Improve <br> customer satisfication and stay ahead of <br> the competetion with our product data <br> analytics.</p>
+      </div>
+      <div class="box2">
+        <button type="button" class="rounded-circle">2</button>
+        <h1 class="fs-5">Data-driven decisions</h1>
+        <p>Make data-driven decisions with our <br> product data analytics. Our AI_Genderated <br> reports help you unlock insights hidden in <br>
+        you product data.</p>
+      </div>
+      <div class="box3">
+        <button type="button" class="rounded-circle">3</button>
+        <h1 class="fs-5">Always Affortable</h1>
+        <p>Always Affortable pricing that scales with <br> Your busiess. Get top-quality product <br> data analytics services without hidden <br>
+        costs or unexpected fees.</p>
+      </div>
+      </div>
+
+      <div class="owner">
+        <img src="assets/images/image-founder.webp" alt="" class="img-owner" width="400px">
+        <div class="owner-thory">
+          <h1>Be the first to test</h1>
+          <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with <br>
+             me to become a beta tester for our app and kickstart your company. <br>
+            Apply for access below and l'l! be in touch to schedule a call.</p>
+            <button>Apply for access</button>
+            <div class="cimg">
+            <img src="assets/images/bg-pattern-3.svg" alt="" align="right" width="200px">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="text-center mx-auto">
+        <img src="assets/images/logo-dark.svg" alt="" class="mb-3">
+        <br>
+        <img src="assets/images/icon-facebook.svg" alt="" >
+        <img src="assets/images/icon-twitter.svg" alt="" class="ms-4">
+        <img src="assets/images/icon-instagram.svg" alt="" class="ms-4">
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
